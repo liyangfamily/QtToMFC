@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/ICEditor">
+        <file>Resource/1.jpg</file>
+        <file>Resource/2.jpg</file>
+        <file>Resource/3.jpg</file>
+        <file>Resource/xdlcsz-back.png</file>
+        <file>defalut.css</file>
+    </qresource>
+    <qresource prefix="/CheckBox">
+        <file>Resource/dxk.png</file>
+        <file>Resource/dxk2.png</file>
+        <file>Resource/dxk2-hover.png</file>
+        <file>Resource/dxk-hover.png</file>
+    </qresource>
+    <qresource prefix="/Button">
+        <file>Resource/close red_hover.png</file>
+        <file>Resource/close red_press.png</file>
+        <file>Resource/guan bi hover.png</file>
+        <file>Resource/guan bi press.png</file>
+        <file>Resource/guan bi.png</file>
+        <file>Resource/hui fu hover.png</file>
+        <file>Resource/hui fu press.png</file>
+        <file>Resource/hui fu.png</file>
+        <file>Resource/max hover.png</file>
+        <file>Resource/max press.png</file>
+        <file>Resource/max.png</file>
+        <file>Resource/min hover.png</file>
+        <file>Resource/min press.png</file>
+        <file>Resource/min.png</file>
+        <file>Resource/xtckan (2).png</file>
+        <file>Resource/xtckan.png</file>
+        <file>Resource/xtckan-hover.png</file>
+        <file>Resource/xtckan-press.png</file>
+    </qresource>
+    <qresource prefix="/LineEdit">
+        <file>Resource/text313_focus.png</file>
+        <file>Resource/text313.png</file>
+    </qresource>
+</RCC>

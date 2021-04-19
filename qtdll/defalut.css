@@ -1,0 +1,90 @@
+﻿QWidget#ICEditorClass {
+    /*background-color: rgba(25,255,255,255);*/
+}
+
+QTreeWidget, QTableWidget {
+    border: 0px;
+    background-color: rgba(255,255,255,200);
+}
+
+QHeaderView::section {
+    border: 0px;
+    background-color: #d9ecf2;
+    padding-top:2px;
+}
+
+QAbstractItem {
+    text-align: center;
+}
+
+QFrame#frame {
+    border-image: url(:/ICEditor/Resource/3.jpg);
+    /*border-radius: 10px;*/
+    /*padding-top: 85px;
+    padding-right: 36px;
+    padding-bottom: 105px;
+    padding-left: 57px;*/
+}
+
+/*上右下左*/
+/* Button*/
+QPushButton {
+    border-image: url(:/Button/Resource/xtckan.png);
+    border-top: 10px transparent;
+    border-right: 14px transparent;
+    border-bottom: 10px transparent;
+    border-left: 14px transparent;
+}
+
+    QPushButton:hover {
+        border-image: url(:/Button/Resource/xtckan-hover.png);
+        border-top: 10px transparent;
+        border-right: 14px transparent;
+        border-bottom: 10px transparent;
+        border-left: 14px transparent;
+    }
+
+    QPushButton:pressed {
+        border-image: url(:/Button/Resource/xtckan-press.png);
+        border-top: 10px transparent;
+        border-right: 14px transparent;
+        border-bottom: 10px transparent;
+        border-left: 14px transparent;
+    }
+
+    QPushButton:disabled {
+        border-image: url(:/Button/Resource/xtckan (2).png);
+        border-top: 10px transparent;
+        border-right: 14px transparent;
+        border-bottom: 10px transparent;
+        border-left: 14px transparent;
+    }
+
+/*LineEdit*/
+QLineEdit#lineEdit_ICSearch {
+    min-height: 23px;
+    border-image: url(:/LineEdit/Resource/text313.png);
+    border-top: 0px;
+    border-right: 10px;
+    border-bottom: 0px;
+    border-left: 10px;
+    padding-left: 1px;
+}
+
+    QLineEdit#lineEdit_ICSearch:hover {
+        border-image: url(:/LineEdit/Resource/text313_focus.png);
+        border-top: 0px;
+        border-right: 10px;
+        border-bottom: 0px;
+        border-left: 10px;
+        padding-left: 1px;
+    }
+
+    QLineEdit#lineEdit_ICSearch:focus {
+        border-image: url(:/LineEdit/Resource/text313_focus.png);
+        border-top: 0px;
+        border-right: 10px;
+        border-bottom: 0px;
+        border-left: 10px;
+        padding-left: 1px;
+    }
