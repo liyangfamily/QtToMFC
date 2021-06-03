@@ -1,0 +1,12 @@
+#ifndef ICXM11202G_GLOBAL_H
+#define ICXM11202G_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(ICXM11202G_LIBRARY)
+#  define ICXM11202G_EXPORT Q_DECL_EXPORT
+#else
+#  define ICXM11202G_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // ICXM11202G_GLOBAL_H
